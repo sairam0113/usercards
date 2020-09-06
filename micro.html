@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcone to the webpage</title>
+    <style>
+        .body{
+            position: relative;
+        }
+        .class1{
+            
+            margin-top: 15px;
+            display: inline-block;
+            position: fixed;
+            background-color: blue;
+            width: 25%;
+            height: 750px;
+            color: white;
+            vertical-align: top;
+
+        }
+        .class1 h1{
+            font-size: xxx-large;
+            position: absolute;
+            bottom: 0;
+            margin: 0 40px;
+            margin-bottom: 20px;
+        }
+        .class1 h2{
+            padding: 50px;
+        }
+        .class1 h5{
+            margin: 0 40px;
+            
+        }
+        .class2{
+            margin-left: 350px;
+            position: relative;
+            width: 70%;
+            display: inline-block;
+        }
+        .users{
+            margin-left: 50px;
+            position: absolute;
+            text-align: center;
+            
+        }
+        .users div{
+            box-shadow: 4px -1px 8px -3px rgba(84,75,84,1);
+            height: 325x;
+            margin: 5px 5px;
+            border: 1px solid grey;
+            width: 23%;
+            display: inline-block;
+        }
+        .users label{
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        .users img{
+            width: 100%;
+        }
+
+        .button1{
+            margin-top: 15px;
+            background-color: white;
+            color: blue;
+            border: 1.5px solid blue;
+            border-radius: 10px;
+            font-size: small;
+            width: 70%;
+            height: 30px;
+            margin-right: 5px;
+            text-align: left;
+        }
+        .button1>img{
+            width: 25px;
+        }
+        .button2{
+            margin-top: 15px;
+            background-color: white;
+            border-radius: 10px;
+            border: 1.5px solid blue;
+            vertical-align: bottom;
+            width: 30px;
+            height: 30px;
+
+        }
+        .button2 >img{
+            width: 13px;
+            height: 12px;
+        }
+        button:disabled{
+            opacity: 0.6;
+            border-color: grey;
+        }
+    </style>
+
+</head>
+<body class="body">
+    <section class="class1">
+        <h2>Real-time <br> Assistance</h2>
+        <h5>connect dierectly with any <br> available team member</h5>
+        <h1>ONSIP</h1>
+
+    </section>
+    <section class="class2">
+        <section class="users" id="users-list">
+
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
